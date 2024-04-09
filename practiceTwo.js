@@ -67,7 +67,6 @@ function isEven(n){
   }
 }
 
-
 --------------------------------------------------------------------
 /* Write a function countBs that takes a string as its only argument and returns a number that indicates 
 how many uppercase B characters there are in the string. */
@@ -93,6 +92,10 @@ the character that is to be counted (rather than counting only uppercase B chara
   }
    return count;
  }
+
+function countAs(str){
+  return countChat(str, "A");
+}
 --------------------------------------------------------------------
 
 --------------------------------------------------------------------
